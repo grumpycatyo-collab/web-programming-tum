@@ -23,7 +23,7 @@ FOR MORE LOOK INTO THE LIVE DEMO!
 
 ## Live Demo
 
-Check out the live demo: [Emotional Support Bricks](TODO)
+Check out the live demo: [Emotional Support Bricks](https://support-bricks.vercel.app/)
 
 ## Features
 
