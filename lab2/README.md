@@ -11,13 +11,13 @@ So don't hesitate to buy a brick from us. We make them with clay!
 
 ## Screenshots
 #### THE HERO:
-![img.png](images/screenshots/img1.png)
+![img.png](static/images/screenshots/img1.png)
 
 ### THE PRICING:
-![img.png](images/screenshots/img2.png)
+![img.png](static/images/screenshots/img2.png)
 
 ### THE CONTACT US:
-![img.png](images/screenshots/img3.png)
+![img.png](static/images/screenshots/img3.png)
 
 FOR MORE LOOK INTO THE LIVE DEMO!
 
