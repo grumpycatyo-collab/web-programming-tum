@@ -31,7 +31,7 @@
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-lg);
   margin-top: var(--spacing-xl);
 }
@@ -50,7 +50,7 @@
 
 .product-card img {
   width: 100%;
-  height: 200px;
+  height: 100px;
   object-fit: cover;
 }
 
@@ -69,7 +69,6 @@
   color: var(--color-text-light);
 }
 
-/* Pricing Cards */
 .pricing-plans {
   display: flex;
   gap: var(--spacing-lg);
