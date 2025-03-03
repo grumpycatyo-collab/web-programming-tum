@@ -1,0 +1,21 @@
+.mobile-only-section {
+        display: none;
+        background-color: #f8f4e3;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+@media (max-width: 768px) {
+    .mobile-only-section {
+        display: block;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+}
