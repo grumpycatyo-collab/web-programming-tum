@@ -18,6 +18,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .text-red-600 {
+        color: #c75146;
+    }
+
+    .bg-accent {
+        background-color: #f8a054;
+    }
+    .text-accent {
+        color: #f8a054;
+    }
+</style>
 </head>
 <body>
      <header class="header">
@@ -53,13 +72,15 @@
         </div>
     </section>
 
-     <section class="mobile-only-section">
-    <h2>Special Mobile Offer!</h2>
-    <p>Download our Brick Buddy app and get 15% off your first emotional support brick!</p>
-    <button class="btn btn-accent">Get the App</button>
+     <section class="block md:hidden bg-accent p-6 text-center rounded-lg shadow-md mx-4 my-8">
+    <h2 class="text-2xl font-semibold text-white font-montserrat mb-2">Special Mobile Offer!</h2>
+    <p class="text-white mb-4">Download our Brick Buddy app and get 15% off your first emotional support brick!</p>
+    <button class="bg-white text-accent font-bold py-2 px-6 rounded-md hover:bg-gray-100 transition-colors duration-300">
+        Get the App
+    </button>
 </section>
 
-     <<section class="py-16" id="about">
+     <section class="py-16" id="about">
     <div class="container mx-auto px-4">
         <h2 class="text-4xl font-semibold text-center mb-8 font-montserrat text-gray-800">Why Bricks?</h2>
         <div class="flex flex-col md:flex-row gap-8 mt-16">
@@ -81,28 +102,34 @@
         </div>
     </div>
 </section>
-     <section class="products" id="products">
-        <div class="container">
-            <h2 class="section-title">Our Brick Collection</h2>
-            <div class="product-grid">
-                <div class="product-card">
-                    <img src="static/images/brick-types/regular.png" alt="Classic Red Brick">
-                    <h3>The Classic Red</h3>
-                    <p>Our original emotional support brick. Reliable, traditional, and comfortingly familiar and red.</p>
+    <section class="py-16 bg-white" id="products">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-semibold text-center mb-8 font-montserrat text-gray-800">Our Brick Collection</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1">
+                <img src="static/images/brick-types/regular.png" alt="Classic Red Brick" class="w-full h-32 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-red-600 font-montserrat">The Classic Red</h3>
+                    <p class="text-gray-600">Our original emotional support brick. Reliable, traditional, and comfortingly familiar and red.</p>
                 </div>
-                <div class="product-card">
-                    <img src="static/images/brick-types/marble.png" alt="Luxury Marble Brick">
-                    <h3>Luxury Marble</h3>
-                    <p>For the the most depressed users who need premium emotional support. Also soft.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1">
+                <img src="static/images/brick-types/marble.png" alt="Luxury Marble Brick" class="w-full h-32 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-red-600 font-montserrat">Luxury Marble</h3>
+                    <p class="text-gray-600">For the most depressed users who need premium emotional support. Also soft.</p>
                 </div>
-                <div class="product-card">
-                    <img src="static/images/brick-types/pocket.png" alt="Pocket Brick">
-                    <h3>Pocket Brick</h3>
-                    <p>Emotional support on-the-go. Small enough for your pocket, heavy enough for your overthinking.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1">
+                <img src="static/images/brick-types/pocket.png" alt="Pocket Brick" class="w-full h-32 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-red-600 font-montserrat">Pocket Brick</h3>
+                    <p class="text-gray-600">Emotional support on-the-go. Small enough for your pocket, heavy enough for your overthinking.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
      <section class="pricing" id="pricing">
         <div class="container">
             <h2 class="section-title">Find Your Perfect Support</h2>
